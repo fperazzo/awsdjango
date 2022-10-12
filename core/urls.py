@@ -1,4 +1,4 @@
-from core.views import IndexTemplateView
+from core.views.index import IndexTemplateView
 from django.urls import path
 from . import views
 
