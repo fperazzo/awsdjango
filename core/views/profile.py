@@ -2,6 +2,7 @@
 from core.forms.profileform import UserForm, ProfileForm
 from django.contrib.auth.decorators import login_required
 from django.db import transaction
+from django.shortcuts import render
 
 @login_required
 @transaction.atomic
